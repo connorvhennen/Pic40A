@@ -35,8 +35,7 @@ while($record = $result->fetchArray()) {
   $users[$record["sid"]] = $record["password"];
 }
 
-$taken = false; //will be set to true if the given username is taken
-//iterate through all users to check if the given username is taken
+$taken = false; 
 foreach($users as $key => $value){
   if($SID == $key) {
     $taken = true;
