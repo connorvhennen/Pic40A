@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  border:0;
+  padding:0;
+  font-family: 'Avenir';
+  color: #fff;
+}
+
+html{
+  height: 100%;
+  margin: 0;
+}
+#reg{
+  color: #43A38F;
+}
+
+#tokenID{
+  visibility:hidden;
+}
+
+#tokenInput{
+  
+}
+
+input[type=text] {
+  color: black;
+  background-image: url("jans.png");
+}
+
+input[type=password] {
+  color: #43A38F;
+  background-image: url("jans.png");
+}
+
+input:focus {
+  outline: none;
+}
+
+/*a {
+  text-decoration: none;
+}*/
+
+.styled_input {
+  padding-left: 10px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+
+#registerBody {
+  height: 100%;
+  text-align: center;
+}
+
+#registerBody h1 {
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+#studID{
+  margin-left: -9.5px;
+  color: #43A38F;
+}
+#userID{
+  margin-left: -5.2px;
+  color: #43A38F;
+}
+
+#passID{
+  color: #43A38F;
+}
+
+.link_button {
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  background-color: #43A38F;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+.link_button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+#registerPic {
+  height: 100%;
+  background-image: url("uclaDrone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcomeBody {
+  height: 100%;
+  text-align: center;
+}
+
+#welcomePic {
+  height: 100%;
+  background-image: url("uclajans.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcomeH {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#welcomeH2 {
+  max-width: 300px;
+  margin: 0 auto;
+  font-weight: normal;
+  color: #191970;
+}
+
+#userUI {
+  padding-left: 250px;
+}
+
+#userUIbar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+  }
+
+
+#sidebarUnlist {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebarUnlist li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+#sidebarUnlist li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+#sidebarUnlist li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+#sidebarUnlist li a:active,
+#sidebarUnlist li a:focus {
+    text-decoration: none;
+}
+
+#sidebarList {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#sidebarList a {
+    color: #999999;
+}
+
+#sidebarList a:hover {
+    color: #fff;
+    background: none;
+}

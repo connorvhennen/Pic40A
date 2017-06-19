@@ -5,17 +5,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Register</title>
-	<link rel="stylesheet" type="text/css" href="uc_currency.css" />
+	<link rel="stylesheet" type="text/css" href="ucCurrency.css" />
+
 </head>
-<body id="signup_body">
-	<h1>Register</h1>
+<script type="text/javascript">
+
+	function setTokens(){
+		document.getElementsByName("tokens").text = '500';
+		document.getElementById("tokenInput").text = '500';
+		document.getElementsByName("tokens").input = '500';
+		document.getElementById("tokenInput").input = '500';
+		document.getElementsByName("tokens").value = '500';
+		document.getElementById("tokenInput").value = '500';
+	}
+
+</script>
+
+<body id="registerBody" onload = "setTokens()">
+	<div id = "registerPic">
+	<h1 id = "reg">Register</h1>
 	<form action="register.php" method="post">
 		<fieldset>
-			<label>SID</label> <input id="studentID" class="styled_input" type="text" name="SID"/></br>
-			<label>Username</label> <input class="styled_input" type="text" name="username"/></br>
-			<label>Password</label> <input class="styled_input" type="password" name="password"/></br>
+			<label id = "studID">Student ID</label> <input id="studentID" class="styled_input" type="text" name="SID"/></br>
+			<label id = "userID">Username</label> <input class="styled_input" type="text" name="username"/></br>
+			<label id = "passID">Password</label> <input class="styled_input" type="password" name="password"/></br>
+			<label id = "tokenID">Tokens</label> <input id="tokenInput" type="text" name="tokens"/></br>
 			<input type="submit" value="Register" class="link_button"/>
 		</fieldset>
 	</form>
+	</div>
 </body>
 </html>
