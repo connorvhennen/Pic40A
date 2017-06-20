@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  border:0;
+  padding:0;
+  font-family: 'Optima';
+  color: black;
+}
+
+#itemLink{
+  color: blue;
+}
+
+#itemlist{
+  padding-left: 100px;
+  /*background-image: url("bear.jpg");*/
+  z-index: 2000;
+
+}
+
+html{
+  height: 100%;
+  margin: 0;
+}
+#reg{
+  color: #43A38F;
+}
+
+#tokenID{
+  visibility:hidden;
+}
+
+#tokenInput{
+  visibility:hidden;
+}
+
+input[type=text] {
+  color: black;
+  background-image: url("jans.png");
+}
+
+input[type=password] {
+  color: #43A38F;
+  background-image: url("jans.png");
+}
+
+input:focus {
+  outline: none;
+}
+
+/*a {
+  text-decoration: none;
+}*/
+
+.styled_input {
+  padding-left: 10px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+#styled_inputLong {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 300px;
+}
+
+#styled_inputLongSpecial {
+  padding-left: 10px;
+  height: 50px;
+  margin-bottom: 5px;
+  width: 300px;
+}
+
+#postItemField {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#postBody {
+  height: 100%;
+  text-align: left;
+}
+
+#postBody h1 {
+  padding-top: 170px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+#registerBody {
+  height: 100%;
+  text-align: center;
+}
+
+#registerBody h1 {
+
+  padding-top: 170px;
+  margin-bottom: 20px;
+}
+
+
+
+#studID{
+  margin-left: -9.5px;
+  color: #43A38F;
+}
+#studID:hover {
+  color: white;
+  background: black;
+}
+#userID{
+  margin-left: -5.2px;
+  color: #43A38F;
+}
+#userID:hover {
+  color: white;
+  background: black;
+}
+
+#passID{
+  color: #43A38F;
+}
+#passID:hover {
+  color: white;
+  background: black;
+}
+
+.link_button {
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  background-color: #43A38F;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+.link_button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+#registerPic {
+  height: 100%;
+  background-image: url("uclaDrone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcomeBody {
+  height: 100%;
+  text-align: center;
+}
+
+#welcomePic {
+  height: 100%;
+  background-image: url("uclajans.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcomeH {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#welcomeH2 {
+  max-width: 300px;
+  margin: 0 auto;
+  font-weight: normal;
+  color: #191970;
+}
+
+#userUI {
+  padding-left: 250px;
+}
+
+#userUIbar {
+
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 300px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    /*background: #000;*/
+    background-image: url("bear.jpg");
+  }
+#pic2 {
+    z-index: 100;
+    position: absolute;
+    /*left: 300px;*/
+    width: 300px;
+    height: 100%;
+/*    margin-left: 300px;
+    overflow-y: auto;*/
+
+    /*background: #000;*/
+    background-image: url("bear.jpg");
+}
+.userProfile {
+  color: #73CBFF;
+  font-size: 25px;
+
+}
+#sidebarUnlist {
+    top: 10px;
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebarUnlist li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+#sidebarUnlist li a {
+    display: block;
+    text-decoration: none;
+    color: #73CBFF;
+
+}
+
+.userProfile:hover, #sidebarUnlist li a:hover {
+    text-decoration: none;
+    color: #43A38F;
+    background: black;
+}
+
+#sidebarUnlist li a:active,
+#sidebarUnlist li a:focus {
+    text-decoration: none;
+}
+
+#sidebarList {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#sidebarList a {
+    color: #73CBFF;
+}
+
+/*#userProfile:hover, #sidebarList a:hover {
+    color: #43A38F;
+    background: none;
+}*/

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="ucCurrency.css" />
+	<script type="text/javascript">
+		function thanks(){
+			alert("Thank you for posting!");
+		}
+
+	</script>
+</head>
+
+<body id="postBody">
+	<div id = "registerPic">
+	<h1 id = "reg">Post Item Request</h1>
+	<form action="addPost.php" method="post">
+		<fieldset id = "postItemField">
+			<label id = "userITEM">Username</label> <input class="styled_input" type="text" name="username"/></br>
+			<label id = "nameITEM">Item Name</label> <input class="styled_input" type="text" name="itemname"/></br>
+			<label id = "describeITEM">Item Description</label> <input id="styled_inputLong" type="text" name="itemdescription"/></br>
+			<label id = "priceITEM">Tokens Offered</label> <input class="styled_input" type="text" name="OFFER"/></br>
+			<label id = "noteITEM">Special Notes</label> <input id="styled_inputLongSpecial" type="text" name="notes"/></br>
+			<input onclick = "thanks()" type="submit" value="Post" class="link_button"/>
+		</fieldset>
+	</form>
+	</div>
+</body>
