@@ -39,7 +39,7 @@ foreach($all_users as $key => $value){
 }
 if ($matched) {
   setcookie("current_user", $username, time()+2419200); //cookie that keeps track of login
-  header("Location: http://pic.ucla.edu/~connorvhennen/final_project/ucCurrency.php");
+  header("Location: ucCurrency.php");
 }
 else {
   if ($usernamenotpass) {
