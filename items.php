@@ -57,7 +57,7 @@ function getItems() {
     print "<div class='item-description'>" . "Item Description: " . $i[2] . "</div>";
     print "<div class='item-offer'>" . "Tokens Offered: " . $i[3] . "</div>";
     print "<div class='item-notes'>" . "Special Notes: " . $i[4] . "</div>";
-    print "<a href = 'http://pic.ucla.edu/~connorvhennen/final_project/viewPost.php' id = 'itemLink'>" . "Click to begin fulfilling posts!" . "</a>";
+    print "<a href = 'viewPost.php' id = 'itemLink'>" . "Click to begin fulfilling posts!" . "</a>";
     //print "<div class='event-delete'>x</div>";
     print "</div>";
   }
