@@ -85,7 +85,7 @@ $result = $db->query($sql);
   //setcookie("current_user", $SID, time()+31557600);
   // header("Location: http://pic.ucla.edu/~connorvhennen/final_project/thanks.php");
 //getItems();
-header("Location: http://pic.ucla.edu/~connorvhennen/final_project/ucCurrency.php");
+header("Location: ucCurrency.php");
 
 
 ?>
