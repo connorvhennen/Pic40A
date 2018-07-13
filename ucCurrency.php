@@ -59,7 +59,7 @@ xmlns:v="urn:schemas-microsoft-com:vml">
 		return "";
 	}
 	function logout() {
-		window.location = "http://pic.ucla.edu/~connorvhennen/final_project/welcome.html";
+		window.location = "welcome.html";
 	}
 
 	// function deleteItem(obj) {
@@ -94,10 +94,10 @@ xmlns:v="urn:schemas-microsoft-com:vml">
                     </ul>
                 </li> -->
                 <li>
-                    <a href="http://pic.ucla.edu/~connorvhennen/final_project/viewPost.php">View Postings</a>
+                    <a href="viewPost.php">View Postings</a>
                 </li>
                 <li>
-                    <a href="http://pic.ucla.edu/~connorvhennen/final_project/addPost.html">Add Posting</a>
+                    <a href="addPost.html">Add Posting</a>
                 </li>
                 <li>
                     <a onclick = "logout()">Logout</a>
