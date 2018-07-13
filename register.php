@@ -55,7 +55,7 @@ else {
     /*;"tokens", $usertokens, time()+31557600);*/
   // setcookie("tokens", $usertokens, time()+31557600);
   //setcookie("current_user", $SID, time()+31557600);
-  header("Location: http://pic.ucla.edu/~connorvhennen/final_project/ucCurrency.php");
+  header("Location: ucCurrency.php");
 }
   
   
